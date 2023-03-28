@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body { 
+    height: 100vh;
+}
+
+.conteinerPrincipal{
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 10px 30px;
+    border-bottom: 2px solid #cfc9c9;    
+}
+
+.menuCabecalho{
+    height: 50%;
+}
+
+.menuCabecalhoUl{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menuCabecalhoLi{
+    font-size: 20px;   
+    width: 150px;
+    height: 40px;
+    padding: 6px 30px;
+    border-radius: 5px; 
+}
+
+.menuProducts{
+    background-color: #0A99FE;
+    color: #b7ddf8;
+}
+
+.menuProducts:hover{
+    border: 1px solid #b7ddf8;  
+}
+
+.menuContatos{
+    /* coloquei a cor #0A99FE; em RGBA com 10% de alfa (opacidade) */
+    background-color: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;    
+    cursor: not-allowed;
+} 
+
+section{
+    background-color:#FFFFFF;
+    overflow-x: auto;
+    margin: 15px;
+}
+
+.ullistaFigura, .ullistaAcao {
+    display: flex;
+    justify-content: center;
+}
+
+.liCard{
+    width: 207px;
+    height: 275px;
+    border-radius: 10px;    
+    margin: 7px;
+    background-color: #cfc9c9;
+}
+
+.imagemFigure{
+    border-radius: 10px;
+    background-color: #cfc9c9;
+}
+
+.imagemProduto{
+    width: 207px;
+    height: 137.5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tituloSecao{
+    color: #1B1B1B;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+
+.tituloProduto{
+    color: #1B1B1B;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #cfc9c9;
+    font-weight: 600;
+}
+
+.precoP{
+    color: #868383;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: #cfc9c9;
+    font-weight: 400;
+}
